@@ -132,4 +132,77 @@ body{
     cursor: pointer;
 }
 
-/* CONTAINER DESIGN */
+/* WRAPPER DESIGN */
+.wrapper{
+    height: 150vh;
+}
+
+/* FEATURED BOX */
+
+
+/* FEATURED TEXT BOX */
+
+
+/* FEATURED IMAGE BOX */
+
+
+/* MAIN BOX */
+
+
+/* REUSABLE CSS */
+
+
+/* ABOUT INFO */
+
+
+/* ABOUT / SKILLS BOX */
+
+
+/* PROJECTS BOX */
+
+
+/* CONTACT BOX */
+
+
+/* CONTACT FORM */
+
+
+/* FOOTER BOX */
+
+
+/* MEDIA QUERY == 1024px / RESPONSIVE */
+
+
+/* MEDIA QUERY == 900px / RESPONSIVE */
+@media only screen and (max-width: 900px) {
+     .nav-button{
+        display: none;
+     }
+     .nav-menu.responsive{
+         left: 0%;
+     }
+     .nav-menu{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(20px);
+        width: 100%;
+        min-height: 450px;
+        height: 90vh;
+        transition: .3s;
+     }
+     .nav_menu_list{
+        flex-direction: column;
+     }
+    .nav-menu-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+ }
+
+/* MEDIA QUERY == 540px / RESPONSIVE */
